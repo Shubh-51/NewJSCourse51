@@ -23,11 +23,11 @@ console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
 
 //IN javascript we have 3 types of variable declaration keywords: var, let and const.
 
-//var is function scoped and can be re-declared and updated.
+//var is function scoped and can be re-declared and updated.[important that var can be re-declared and updated, which can lead to unexpected behavior if not used carefully. It is generally recommended to avoid using var and use let or const instead.]
 //let is block scoped and can be updated but not re-declared.
 //const is block scoped and cannot be updated or re-declared.
 
-//In javascript we can declare a variable without using any keyword, but it is not recommended as it creates a global variable and can lead to unexpected behavior.
+//In javascript we can declare a variable without using any keyword[means const or let], but it is not recommended as it creates a global variable and can lead to unexpected behavior.
 
 
 //In javascript, we can declare a varible without initializing it, and it will have the value of undefined. We can also initialize a variable at the time of declaration or later in the code.
