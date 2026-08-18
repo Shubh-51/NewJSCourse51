@@ -25,3 +25,7 @@ console.log(typeof id); //symbol
 console.log(typeof arr); //object
 console.log(typeof obj); //object
 console.log(typeof myFunction); //function
+
+
+//all dattypes return value
+//null======> object
